@@ -48,37 +48,7 @@ i class="cabecalho-lista-item"><a href="#estudante">ESTUDANTE</a></li>
 
 <p class="escola-texto-dois">A turma 20 é a mais estudiosa e famosa...</p>
 
-</div>cabecalho {cacabecalho {
-    background-color: #ec22e2;
-    color: #080101;
-    display: flex;
-    justify-content: space-around;
-    padding: 24px 0;
-}cabecalho {
-    background-color: #ec22e2;
-    color: #080101;
-    display: flex;
-    justify-content: space-around;
-    padding: 24px 0;
-}becalho {
-    background-color: #ec22e2;
-    color: #080101;
-    display: flex;
-    justify-content: space-around;
-    padding: 24px 0;
-}cabecalho {
-    background-color: #ec22e2;
-    color: #080101;
-    display: flex;
-    justify-content: space-around;
-    padding: 24px 0;
-}
-    background-color: #ec22e2;
-    color: #080101;
-    display: flex;
-    justify-content: space-around;
-    padding: 24px 0;
-}
+</div>
 
 <img class="escola-imagem" src="./img/escola.jpg" alt="foto da escola">
 
@@ -89,4 +59,3 @@ i class="cabecalho-lista-item"><a href="#estudante">ESTUDANTE</a></li>
 </body>
 
 </html>
-
