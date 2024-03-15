@@ -1,61 +1,66 @@
-<!DOCTYPE html>
+*Adicionar as propriedades margin e padding no seletor universal (asterisco) */
 
-<html lang="pt-br">
+margin: 0;
 
-<head>
+padding: 0;
 
-<meta charset="UTF-8">
+Iniciar Seção cabeçalho/
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+.cabecalho {
 
-<title>Site Criativo</title>
+background-color: #424661;
 
-<link rel="stylesheet" href="style.css">
+color: #FFFFFF;
 
-</head>
+display: flex;
 
-<body>
+justify-content: space-around;
 
-<!--Inicio seção cabeçalho-->
+align-items: center;
 
-<header class="cabecalho">
+padding: 24px theta
 
-<img class="cabecalho-imagem" src="./img/logo-escola.jpg" alt="logo da escola">
+cabecalho-imagem{
 
-<h1 class="cabecalho-titulo">Meu Site Criativo</h1>
+width: 8%;
 
-<ul class="cabecalho-lista">
+border-radius: 22px; /para definir bordas arredondadas da imagem/
 
-<li class="cabecalho-lista-item"><a href="#escola">ESCOLA</a></li>
+/*A lista não ordenada ul precisa estar alinhada em uma única linha.
 
-i class="cabecalho-lista-item"><a href="#estudante">ESTUDANTE</a></li>
+Crie um seletor para a classe.cabecalho-lista-item, adicionando nele a propriedade display com o valor inline-block:*/
 
-</ul>
+/Aumente os espaçamentos entre os textos com a propriedade margin de valor e 16px:/ Aumente a fonte através da propriedade font size de valor 24px.*/
 
-</header>
+.cabecalho-lista-item{
 
-<!--fim da seção cabeçalho-->
+display: inline-block;
 
-<!--Inicio seção escola-->
+margin: 0 16px;
 
-<section class="escola">
+font-size: 24px;
 
-<div class="escola-div-conteudo">
+}
 
-<h2 class="escola-titulo">Colégio Cívico Militar Professor Francisco Villanueva
+I
 
-<p class="escola-texto-um">Ensino Fundamental e Ensino Médio</p></h2>
+.cabecalho-lista-item a {
 
-<p class="escola-texto-dois">A turma 20 é a mais estudiosa e famosa...</p>
+text-decoration: none; color: #FFFFFF; /cor/
 
-</div>
+}
 
-<img class="escola-imagem" src="./img/escola.jpg" alt="foto da escola">
+/Efeito alterar a cor quando passa o mouse/
 
-</section>
+a:hover {
 
-<!--fim da seção escola-->
+color: #16CFF8;
 
-</body>
+}
 
-</html>
+/alterar a cor quando clicar com o mouse/
+
+a:active{
+
+color: rgb(105, 144, 216);
+
