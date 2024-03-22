@@ -1,8 +1,8 @@
 /*Adicionar as propriedades margin e padding no seletor universal (asterisco) */
- *{
+*{
      margin: 0;
      padding: 0;
- }
+}
 
 Iniciar Seção cabeçalho/
 
