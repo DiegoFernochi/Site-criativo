@@ -79,4 +79,7 @@ a:active{
 
 /**/
 p{
-    padding: 0 40px; 
+    padding: 0 40px; /*alinhar o espaçamento */
+    font-size: 20px;/*tamanho da fonte*/
+    font-family: Arial, Helvetica, sans-serif; /*especifica a fonte de um elemento*/
+}
