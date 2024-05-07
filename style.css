@@ -12,7 +12,7 @@
 }
 
 .cabecalho-titulo{
-    color: #0004ff;
+    color: #000000;
     font-style: italic;
     font-variation-settings:
 }
@@ -30,15 +30,15 @@
 
 .cabecalho-lista-item a{
     text-decoration: none;
-    color:rgb(140, 128, 245);
+    color:rgb(128, 245, 245);
 }
 
 a:hover {
-    color: #003cff;
+    color: #00f7ff;
 }
 
 a:active{
-    color: rgb(0, 37, 247);
+    color: rgb(0, 218, 247);
 
 }
 
@@ -50,7 +50,7 @@ a:active{
 
 .escola{
     background-image:linear-gradient( #fdfdfd, #f7c9e4) ;
-    color: rgb(80, 6, 253);
+    color: rgb(6, 142, 253);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,8 +72,8 @@ p{
 }
 
 .estudante{
-    color: rgb(142, 6, 253);
-    background-image:linear-gradient( #f7c9e4, #ffffff) ;
+    color: rgb(6, 92, 253);
+    background-image:linear-gradient( #000000, #ffffff) ;
 }
 .estudante-titulo{
     padding: 24px 0; /*Altera o espaçamento interno,o primeiro valor bordas verticais (superior e inferior) e o 
